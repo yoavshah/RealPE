@@ -11,7 +11,7 @@
   
   * Combine the [reflective shellcode](https://github.com/yoavshah/RealPE#Shellcode) and the PE found at exe_path as follows
 
-  <img align="center" src="https://raw.githubusercontent.com/yoavshah/RealPE/master/images/project_diagram.png?token=GHSAT0AAAAAABRF6CBFC5HHJLDDPIYUDXWSYU5ZLVA" />
+  <img align="center" src="https://raw.githubusercontent.com/yoavshah/RealPE/master/images/project_diagram.png" />
 
 
   ## Shellcode
