@@ -11,14 +11,14 @@
   
   * Combine the [reflective shellcode](https://github.com/yoavshah/RealPE#Shellcode) and the PE found at exe_path as follows
 
-  <img align="center" src="https://github.com/yoavshah/PEReal/blob/master/images/project_diagram.png" />
+  <img align="center" src="https://raw.githubusercontent.com/yoavshah/RealPE/master/images/project_diagram.png?token=GHSAT0AAAAAABRF6CBFC5HHJLDDPIYUDXWSYU5ZLVA" />
 
 
   ## Shellcode
 
   * The Reflective Shellcode is based on [this project - by stephenfewer](https://github.com/stephenfewer/ReflectiveDLLInjection)
 
-  * Search for PE header <b>down in memory<b>.
+  * Search for PE header <b>down in memory</b>.
 
   * Copy PE headers to a new memory.
 
