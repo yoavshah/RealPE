@@ -46,16 +46,18 @@
 
   * Change the AlignRSP code in the article to this code and add it to be the first under _TEXT SEGMENT
 
+  ```
   AlignRSP PROC
-    push esi ; Preserve RSI since we're stomping on it
-	mov esi, esp ; Save the value of RSP so it can be restored
-	and esp, 0FFFFFFF8h ; Align RSP to 8 byte
-	sub esp, 020h ; Allocate homing space for ExecutePayload
-	call _main ; Call the entry point of the payload
-	mov esp, esi ; Restore the original value of RSP
-	pop esi ; Restore RSI
+    push esi
+	mov esi, esp
+	and esp, 0FFFFFFF8h
+	sub esp, 020h
+	call _main
+	mov esp, esi
+	pop esi
 	ret
   AlignRSP ENDP
+  ```
 
   * Remove all segments except _TEXT segment.
 
